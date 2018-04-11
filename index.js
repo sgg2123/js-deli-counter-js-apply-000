@@ -1,7 +1,9 @@
 function takeANumber (katzDeliLine) {
-  var yourPosition = katzDeliLine.length + 1
-  var response = "Welcome you are number " + yourPosition
-  katzDeliLine.push(name)
+  var length = katzDeliline.length
+  var yourPostion = katzDeliline[length - 1] + 1
+  var response = "Welcome you are number " + yourPosition + "."
+  
+  katzDeliLine.push(yourPosition)
   return response
 }
 
